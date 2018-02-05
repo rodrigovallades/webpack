@@ -1,3 +1,4 @@
+import Person from './person'
 
-const logger = require('./logger');
-logger.info('Using CommonJS pattern');
+const person = new Person('John')
+console.log(person.toString())
