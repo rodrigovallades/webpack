@@ -1,1 +1,3 @@
-console.log('Testing bundle')
+
+const logger = require('./logger');
+logger.info('Using CommonJS pattern');
