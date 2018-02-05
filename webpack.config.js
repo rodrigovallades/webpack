@@ -4,10 +4,10 @@ module.exports = {
     entry: '.ex/index.js',
     output: {
       path: __dirname + '/public',
-      file: './bundle.js'
+      filename: './bundle.js'
     },
     devServer: {
       port: 8080,
-      contentBase: './public'      
+      contentBase: './public'
     }
 }
