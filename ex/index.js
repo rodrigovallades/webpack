@@ -1,14 +1,8 @@
-const product = {
-  name: 'Black pen',
-  price: 1.90,
-  discount: 0.05
-}
+import './style.css'
+import React from 'react'
 
-function clone(obj) {
-  return { ...obj }
-}
+export default props => (
+  <h1>Hi</h1>
+)
 
-const newProduct = clone(product)
-newProduct.name = 'Blue pen'
-
-console.log(product, newProduct)
+console.log('Worked')
